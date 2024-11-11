@@ -24,7 +24,7 @@ header {
     background-size: cover; /* Menyesuaikan ukuran gambar latar belakang agar menutupi seluruh area */
     color: #fff; /* Warna teks putih */
     text-align: center; /* Menengahkan teks di dalam header */
-    padding: 0px 0px 80px; /* Memberikan padding pada bawah header */
+    padding: 0px 0px 122px; /* Memberikan padding pada bawah header */
 }
 
 header h1 a {
@@ -73,7 +73,7 @@ header h1 a {
 /* Hero Section */
 .hero {
     padding: 120px 20px; /* Padding pada area hero */
-    margin: 200px 200px; /* Margin untuk memberi jarak dengan elemen lainnya */
+    margin: 200px 20px; /* Margin untuk memberi jarak dengan elemen lainnya */
 }
 
 .hero img {
@@ -112,17 +112,18 @@ header h1 a {
 
 /* Recommendations Section */
 .recommendations {
-    padding: 20px 0; /* Padding pada bagian rekomendasi */
+    padding: 30px 0; /* Padding pada bagian rekomendasi */
+    text-align: center
 }
 
 .cards {
     display: flex; /* Menggunakan Flexbox untuk kartu rekomendasi */
     justify-content: center; /* Menjaga kartu berada di tengah */
-    gap: 20px; /* Menambahkan jarak antara kartu */
+    gap: flex; /* Menambahkan jarak antara kartu */
 }
 
 .card {
-    background: #f4f4f4; /* Warna latar belakang kartu */
+    /*background: #f4f4f4; /* Warna latar belakang kartu */
     padding: 20px; /* Padding pada kartu */
     border-radius: 5px; /* Menambahkan border-radius pada kartu */
     text-align: center; /* Menjaga teks tetap terpusat di dalam kartu */
@@ -143,14 +144,19 @@ header h1 a {
 
 /* Best Offer Section */
 .offers {
-    padding: 40px 20px; /* Padding pada bagian penawaran terbaik */
+    padding: 40px 20px 40px; /* Padding pada bagian penawaran terbaik */
     background-color: #fdfdfd; /* Warna latar belakang bagian penawaran terbaik */
     text-align: center; /* Menengahkan teks di bagian penawaran terbaik */
 }
 
+.offers h2 {
+    margin-bottom: 20px; /* Memberikan jarak 20px antara judul Best Offer dan kartu penawaran */
+}
+
+
 .offer-cards {
     display: flex; /* Menggunakan Flexbox untuk menampilkan kartu penawaran */
-    gap: 200px; /* Menambahkan jarak antar kartu penawaran */
+    gap: 50px; /* Menambahkan jarak antar kartu penawaran */
     justify-content: center; /* Menjaga kartu penawaran tetap di tengah */
 }
 
@@ -158,7 +164,7 @@ header h1 a {
     background: #e0f7e8; /* Warna latar belakang kartu penawaran */
     border-radius: 10px; /* Menambahkan border-radius pada kartu penawaran */
     padding: 20px; /* Padding pada kartu penawaran */
-    width: 200px; /* Lebar kartu penawaran */
+    width: 300px; /* Lebar kartu penawaran */
 }
 
 .offer-card img {
