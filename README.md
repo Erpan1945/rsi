@@ -1,2 +1,2 @@
 # rsi
-papua explore
+ini imagesnya berantakan aduh
