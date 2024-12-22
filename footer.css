@@ -1,0 +1,55 @@
+footer{
+color:white;
+font-family: 'Poppins';
+background: #515151;
+}
+
+.footertext{
+    display: flex;
+    flex-direction:row;
+}
+
+
+footer h1{
+font-size: 35px;
+font-weight: 500;
+line-height: 30px;
+margin-left:80px;
+margin-top:-40px;
+}
+
+footer h2{
+    margin-left:auto;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-top: 80px;
+}
+
+#text1{
+    padding-left: 900px;
+}
+
+#text2{
+    padding-right: 300px;
+}
+
+footer p{
+    margin-left: 80px;
+    margin-top:20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 15px;
+}
+
+.sosmed{
+margin-left: 60px;
+}
+
+footer img{
+    margin-left:20px;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 50px;
+}
